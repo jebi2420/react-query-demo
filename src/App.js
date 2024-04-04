@@ -6,7 +6,7 @@ import ReactQueryPage from './pages/ReactQueryPage';
 function App() {
   return (
     <div>
-      <nav style={{backgroundColor: "pink", padding:"20px"}}>
+      <nav style={{backgroundColor: "skyblue", padding:"20px"}}>
         <Link to="/" style={{marginRight: "10px"}}>
           Homepage
         </Link>
