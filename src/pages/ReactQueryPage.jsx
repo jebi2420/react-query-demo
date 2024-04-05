@@ -15,11 +15,11 @@ const ReactQueryPage = () => {
     select:(data)=>{
       return data.data;
     },
-    staleTime: 60000, // 1분간 api 호출 금지
-    gcTime: 5000, // 5초만 캐시가 유지 // stale < gcTime
-    //refetchInterval: 3000, // 3초마다 실시간으로 계속 호출
-    refetchOnMount: true, // 컴포넌트 들어왔을 때 fetch 할건지, 기본값 true
-    refetchOnWindowFocus: true, // 윈도우 focus 시 자동 fetch
+    // staleTime: 60000, // 1분간 api 호출 금지
+    // gcTime: 5000, // 5초만 캐시가 유지 // stale < gcTime
+    // //refetchInterval: 3000, // 3초마다 실시간으로 계속 호출
+    // refetchOnMount: true, // 컴포넌트 들어왔을 때 fetch 할건지, 기본값 true
+    // refetchOnWindowFocus: true, // 윈도우 focus 시 자동 fetch
     
   })
 
